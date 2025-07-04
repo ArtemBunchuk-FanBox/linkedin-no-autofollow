@@ -16,7 +16,7 @@ Perfect for job seekers who apply to many positions and want to curate their Lin
 ## Installation
 
 ### From Chrome Web Store
-1. Visit the [Chrome Web Store page]([https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/linkedin-no-auto-follow/ghheofjhdiffbldbgikcajphnphlmikj?authuser=0&hl=en-GB))
+1. Visit the [Chrome Web Store page](https://chromewebstore.google.com/detail/linkedin-no-auto-follow/ghheofjhdiffbldbgikcajphnphlmikj?authuser=0&hl=en-GB)
 2. Click "Add to Chrome"
 3. Confirm installation
 
@@ -46,7 +46,6 @@ linkedin-no-autofollow/
 ```
 
 ### Permissions Used
-- `activeTab`: To detect LinkedIn job pages and interact with checkboxes
 - `storage`: To save user enable/disable preferences
 - Host permission for `*.linkedin.com`: Required to run on LinkedIn pages only
 
@@ -73,4 +72,5 @@ MIT License - feel free to use, modify, and distribute.
 
 ---
 
+**Star ⭐ this repository if it helped you!**
 **Star ⭐ this repository if it helped you!**
