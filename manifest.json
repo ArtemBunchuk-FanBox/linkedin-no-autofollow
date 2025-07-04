@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn No Auto-Follow",
+  "version": "1.01",
+  "description": "Automatically unchecks the 'Follow company' checkbox when applying for jobs on LinkedIn",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LinkedIn No Auto-Follow"
+  },
+  "icons": {
+  "16": "icon16.png",
+  "48": "icon48.png", 
+  "128": "icon128.png"
+}
+}
